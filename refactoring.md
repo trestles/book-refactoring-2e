@@ -296,27 +296,82 @@
 
 #### Refactoring APIs
   - Separate Query from Modifier p306
+    - Motivation p306
+    - Mechanics p307
+    - Example p307
   - Parameterize Function p310
+    - Motivation p310
+    - Mechanics p310
+    - Example p311
   - Remove Flag Argument p314
+    - Motivation p314
+    - Mechanics p315
+    - Example p316
   - Preserve Whole Object p319
+    - Motivation p319
+    - Mechanics p320
+    - Example p320
+    - Example: A Variation to Create the New Function p322
   - Replace Parameter with Query p324
+    - Motivation p324
+    - Mechanisms p325
+    - Example p325
   - Replace Query with Parameter p327
+    - Motivation p327
+    - Mechanisms p328
+    - Example p328
   - Remove Setting Method p331
+    - Motivation p331
+    - Mechanisms p332
+    - Example p332
   - Replace Constructor with Factory Function p334
+    - Motivation p334
+    - Mechanisms p334
+    - Example p335
   - Replace Function with Command p337
+    - Motivation p337
+    - Mechanisms p338
+    - Example p338
   - Replace Command with Function p344
+    - Motivation p344
+    - Mechanisms p344
+    - Example p345
 
 
 #### Dealing with Inheritance 
   - Pull Up Method p350
+    - Motivation p350
+    - Mechanisms p351
+    - Example p351
   - Pull Up Field p353
+    - Motivation p353
+    - Mechanisms p354
   - Pull Up Constructor Body p355
+    - Motivation p356
+    - Mechanisms p356
+    - Example p356
   - Push Down Method p359
+    - Motivation 359
+    - Mechanics 359
   - Push Down Field p361
+    - Motivation p361
+    - Mechanics p361
   - Replace Type Code with Subclasses p362
+    - Motivation p362
+    - Mechanics p363
+    - Example p364
+    - Example: Using Indirect Inheritance p366
   - Remove Subclass p369
+    - Motivation p369
+    - Mechanics p370
+    - Example p370
   - Extract Superclass p375
+    - Motivation p376
+    - Mechanics p376
+    - Example p376
   - Collapse Hierarchy p380
+    - Motivation p380
+    - Mechanics p380
   - Replace Subclass with Delegate p381
   - Replace Superclass with Delegate p399
 
