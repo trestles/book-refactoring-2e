@@ -127,10 +127,32 @@
  
 #### First Set of Refactorings
   - Extract Function p106
+    - Motivation p106
+    - Mechanics p107
+    - Example: No Variables Out of Scope p109
+    - Example: Using Local Variables p110
+    - Example: Reassigning a Local Variable p112
   - Inline Function p115
+    - Motivation p115
+    - Mechanics p116
+    - Example p116
   - Extract Variable p119
+    - Motivation p119
+    - Mechanics p120
+    - Example p120
+    - Example: With a Class p121
   - Inline Variable p123
+    - Motivation p123
+    - Mechanics p123
   - Change Function Declaration p124
+    - Motivation p124
+    - Mechanics p125
+      - Simple Mechanics p126
+      - Migration Mechanics p126
+    - Example: Renaming a Function (Simple Mechanics) p127
+    - Example: Renaming a Function (Migration Mechanics) p127
+    - Example: Adding a Parameter p128
+    - Example: Changing a Parameter to One of Its Properties p129
   - Encapsulate Variable p132
   - Rename Variable p137
   - Introduce Parameter Object p140
@@ -138,42 +160,139 @@
   - Combine Functions into Transform p149
   - Split Phase p154
  
-#### Encapsulation 
+#### 7 Encapsulation 
   - Encapsulate Record p162
+    - Motivation p162
+      - Mechanics p163
+      - Example p163
+      - Example: Encapsulating a Nested Record p165
   - Encapsulate Collection p170
+    - Motivation p170
+    - Mechanics p171
+    - Example p172
   - Replace Primitive with Object p174
+    - Motivation p174
+    - Mechanics p175
+    - Example p175
   - Replace Temp with Query p178
+    - Motivation p178
+    - Mechanics p179
+    - Example p180
   - Extract Class p182
+    - Motivation p182
+    - Mechanics p183
+    - Example p183
   - Inline Class p186
+    - Motivation p186
+    - Mechanics p187
+    - Example p187
   - Hide Delegate p189
+    - Motivation p189
+    - Mechanics p190
+    - Example p190
   - Remove Middle Man p192
+    - Motivation p192
+    - Mechanics p193
+    - Example p193
   - Substitute Algorithm p195 
+    - Motivation p195
+    - Mechanics p196
  
-#### Organizing Data
-  - Split Variable p240
-  - Rename Field p240
-  - Replace Derived Variable with Query p248
-  - Change Reference to Value p252
-  - Change Value to Reference p256
 
 #### Moving Features 
   - Move Function p198
+    - Motivation p198
+    - Mechanics p199
+    - Example: Moving a Nested Function to Top Level p200
+    - Example: Moving Between Classes p204
   - Movie Field p207
+    - Motivation p207
+    - Mechanics p208
+    - Example p209
+    - Example: Moving to a Shared Object p211
   - Move Statements into Function p213
+    - Motivation p213
+    - Mechanics p214
+    - Example p214
   - Move Statements to Callers p217
+    - Motivation p217
+    - Mechanics p218
+    - Example p218
   - Replace Inline Code with Function Call p222
+    - Motivation p222
+    - Mechanics p222
   - Slide Statements p223
+    - Motivation p223
+    - Mechanics p223
+    - Example p224
+    - Example: Sliding with Conditionals p226
+    - Further Reading p226
   - Split Loop p227
+    - Motivation p227
+    - Mechanics p228
+    - Example p229
   - Replace Loop with Pipeline p231
+    - Motivation p231
+    - Mechanics p231
+    - Further Reading p236
   - Remove Dead Code p237
- 
+    - Motivation p237
+    - Mechanics p237
+
+#### 9 Organizing Data
+  - Split Variable p240
+    - Motivation p240
+    - Mechanics p240
+    - Example p241
+    - Example: Assigning to an Input Parameter p242
+  - Rename Field p240
+    - Motivation p244
+    - Mechanics p244
+    - Example: Renaming a Field p245
+  - Replace Derived Variable with Query p248
+    - Motivation p248
+    - Mechanics p249
+    - Example p249
+    - Example: More Than One Source p250
+  - Change Reference to Value p252
+    - Motivation p252
+    - Mechanics p253
+    - Example p254
+  - Change Value to Reference p256
+    - Motivation p256
+    - Mechanics p257
+    - Example p257
+
 #### Simplify Conditional Logic
   - Decompose Conditional p260
+    - Motivation p260
+    - Mechanics p261
+    - Example p261
   - Consolidate Condition Expression p263
+    - Motivation p263
+    - Mechanics p264
+    - Example p264
+    - Example: Using ands p265
   - Replace Nested Conditional with Guard Clauses p266
+    - Motivation p267
+    - Mechanics p267
+    - Example p267
+    - Example: Reversing the Conditions p269
   - Replace Conditional with Polymorphism p272
+    - Motivation p272
+    - Mechanics p273
+    - Example P274
+    - Example: Using Polymorphism for Variation p278
   - Introduce Special Case p289
+    - Motivation p289
+    - Mechanics p289
+    - Example p290
+    - Example: Using an Object Literal p295
+    - Example: Using a Transform p297
   - Introduce Assertion p302
+    - Motivation p302
+    - Mechanics p303
+    - Example p303
 
 #### Refactoring APIs
   - Separate Query from Modifier p306
